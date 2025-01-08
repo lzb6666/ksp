@@ -15,3 +15,4 @@ rootProject.name = "playground"
 
 include(":workload")
 include(":test-processor")
+include(":test-library")

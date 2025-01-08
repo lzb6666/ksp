@@ -14,6 +14,9 @@ fun main() {
         .withD(hello)
     val aClass : AClass = builder.build()
     println(aClass.foo())
+
+    Tools().hello()
+    val service = ServiceFactory().getService("AService")
 }
 
 
